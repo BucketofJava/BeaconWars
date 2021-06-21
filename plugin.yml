@@ -1,0 +1,41 @@
+main: go.SuperCraft.me.Main
+name: Beacon Wars
+version: 1.0
+author: me
+description: A minigame plugin that I made to teach myself spigot
+load: STARTUP
+api-version: 1.14
+commands:
+    givebeacon:
+        usage: /<command>
+    createworld:
+        usage: /<command>
+    createvoid:
+        usage: /<command>
+    generateisland:
+        usage: /<command>
+    gencurve:
+        usage: /<command>    
+    dostuff:
+        usage: /<command>  
+    startgame:
+        usage: /<command>  
+    minecraftbut:
+        usage: /<command>     
+    toglass:
+        usage: /<command>  
+    getworld:
+        usage: /<command>
+    addteamscore:
+        usage: /<command> requiredparam requiredparam
+    setlaunchpadvalue:
+        usage: /<command> requiredparam requiredparam
+    check:
+        usage: /<command>
+ 
+       
+worlds:
+    void:
+        generator: CleanroomGenerator
+  
+        
