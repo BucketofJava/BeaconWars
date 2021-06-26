@@ -18,15 +18,15 @@ import org.bukkit.World;
 import org.bukkit.generator.ChunkGenerator;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.sun.istack.internal.NotNull;
- 
+import javax.annotation.Nonnull;
+
 
 public class VoidCreator extends ChunkGenerator {
 
 
     @Override
-    @NotNull
-    public ChunkData generateChunkData(@NotNull World world, @NotNull Random random, int x, int z, @NotNull BiomeGrid biome) {
+    @Nonnull
+    public ChunkData generateChunkData(@Nonnull World world, @Nonnull Random random, int x, int z, @Nonnull BiomeGrid biome) {
         return createChunkData(world);
     }  
    

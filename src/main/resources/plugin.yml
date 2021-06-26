@@ -4,7 +4,7 @@ version: 1.0
 author: me
 description: A minigame plugin that I made to teach myself spigot
 load: STARTUP
-api-version: 1.14
+api-version: 1.16
 commands:
     givebeacon:
         usage: /<command>

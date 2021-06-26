@@ -1,6 +1,6 @@
 package go.SuperCraft.me;
 
-import org.bukkit.craftbukkit.v1_14_R1.CraftWorld;
+import org.bukkit.craftbukkit.v1_16_R3.CraftWorld;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.Zombie;
@@ -9,11 +9,11 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.meta.LeatherArmorMeta;
 import org.bukkit.scoreboard.Team;
 
-import net.minecraft.server.v1_14_R1.EntityHuman;
-import net.minecraft.server.v1_14_R1.EntityTypes;
-import net.minecraft.server.v1_14_R1.EntityZombie;
-import net.minecraft.server.v1_14_R1.EntityZombieHusk;
-import net.minecraft.server.v1_14_R1.PathfinderGoalZombieAttack;
+import net.minecraft.server.v1_16_R3.EntityHuman;
+import net.minecraft.server.v1_16_R3.EntityTypes;
+import net.minecraft.server.v1_16_R3.EntityZombie;
+import net.minecraft.server.v1_16_R3.EntityZombieHusk;
+import net.minecraft.server.v1_16_R3.PathfinderGoalZombieAttack;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
